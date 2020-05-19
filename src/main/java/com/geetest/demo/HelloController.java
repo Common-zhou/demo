@@ -10,17 +10,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "hello jenkins second!";
     }
 
     @RequestMapping("/changed")
-    public String changed(){
+    public String changed() {
         return "changed!   hhh success!";
     }
 
     @RequestMapping("/push/demo")
-    public String pushDemo(){
+    public String pushDemo() {
         return "push success";
+    }
+
+    @RequestMapping("/hhh")
+    public String helloHh() {
+        return "hhh update success";
     }
 }
