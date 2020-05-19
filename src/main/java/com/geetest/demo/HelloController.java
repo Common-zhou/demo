@@ -28,4 +28,9 @@ public class HelloController {
     public String helloHh() {
         return "hhh update success";
     }
+
+    @RequestMapping("/yoyoyo")
+    public String helloyoyo() {
+        return "hello yoyoyo";
+    }
 }
