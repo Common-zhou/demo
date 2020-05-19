@@ -18,4 +18,9 @@ public class HelloController {
     public String changed(){
         return "changed!   hhh success!";
     }
+
+    @RequestMapping("/push/demo")
+    public String pushDemo(){
+        return "push success";
+    }
 }
