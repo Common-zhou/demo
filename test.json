@@ -1,0 +1,967 @@
+[
+    {
+        "id": 33,
+        "sourceDataName": "call_t2",
+        "sourceDataFormat": "text",
+        "sourceDataPath": "/source_data/call_csv/call_records.csv",
+        "sourceDataSep": ",",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "column_0",
+                "rawColumn": "column_0",
+                "example": [
+                    "8342c0e1e512d9007b13a170c7ea2c1b",
+                    "b2755050c447edc486e3b338f6031f37",
+                    "feee2f7c844c759a48cebca0571e9802"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_1",
+                "rawColumn": "column_1",
+                "example": [
+                    "15895050111",
+                    "15039322970",
+                    "15895050111"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_2",
+                "rawColumn": "column_2",
+                "example": [
+                    "13574460918",
+                    "13574460918",
+                    "15558297175"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_3",
+                "rawColumn": "column_3",
+                "example": [
+                    "True",
+                    "True",
+                    "True"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_4",
+                "rawColumn": "column_4",
+                "example": [
+                    "720",
+                    "1744",
+                    "1495"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_5",
+                "rawColumn": "column_5",
+                "example": [
+                    "False",
+                    "False",
+                    "False"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-12T01:56:47.848+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 32,
+        "sourceDataName": "call_p3",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/call/user_info.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "c187b9a6fa8b207873abe6b8b9fa5659",
+                    "858ce8584c3965b465d439a1c255d47e",
+                    "c3f82c6326a58c0ff53d8d2f33ec2fdf"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name",
+                "rawColumn": "user_name",
+                "example": [
+                    "马丽娟",
+                    "魏林",
+                    "张磊"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "gender",
+                "rawColumn": "gender",
+                "example": [
+                    "1",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "age",
+                "rawColumn": "age",
+                "example": [
+                    "62",
+                    "24",
+                    "27"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "year",
+                "rawColumn": "year",
+                "example": [
+                    "1979",
+                    "1986",
+                    "2003"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "month",
+                "rawColumn": "month",
+                "example": [
+                    "10",
+                    "08",
+                    "08"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "day",
+                "rawColumn": "day",
+                "example": [
+                    "13",
+                    "23",
+                    "12"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "address",
+                "rawColumn": "address",
+                "example": [
+                    "上海市大冶县东城巢湖路d座 908428",
+                    "新疆维吾尔自治区东县海陵王路i座 547779",
+                    "青海省玉华县朝阳辛集路M座 132822"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-12T01:48:10.262+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 31,
+        "sourceDataName": "call_p2",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/call/phone_user_map.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "phone_number",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18549586354",
+                    "15755042997",
+                    "18504764639"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "850e95ceff46b3799bf135a56f758cdb",
+                    "79cc652720d339a61c34702af6b3b924",
+                    "0cc2f59f1048892938b7fec3af66104b"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "registration_time",
+                "rawColumn": "registration_time",
+                "example": [
+                    "1975-05-17",
+                    "1999-11-11",
+                    "2007-05-06"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-12T01:47:24.989+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 30,
+        "sourceDataName": "call_p1",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/call/call_records.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "record_id",
+                "rawColumn": "record_id",
+                "example": [
+                    "8342c0e1e512d9007b13a170c7ea2c1b",
+                    "b2755050c447edc486e3b338f6031f37",
+                    "feee2f7c844c759a48cebca0571e9802"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "caller",
+                "rawColumn": "caller",
+                "example": [
+                    "15895050111",
+                    "15039322970",
+                    "15895050111"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "receiver",
+                "rawColumn": "receiver",
+                "example": [
+                    "13574460918",
+                    "13574460918",
+                    "15558297175"
+                ]
+            },
+            {
+                "columnType": "boolean",
+                "renameColumn": "answer_status",
+                "rawColumn": "answer_status",
+                "example": [
+                    "true",
+                    "true",
+                    "true"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "talk_time",
+                "rawColumn": "talk_time",
+                "example": [
+                    "720",
+                    "1744",
+                    "1495"
+                ]
+            },
+            {
+                "columnType": "boolean",
+                "renameColumn": "is_bad",
+                "rawColumn": "is_bad",
+                "example": [
+                    "false",
+                    "false",
+                    "false"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-12T01:45:28.106+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 29,
+        "sourceDataName": "源数据3",
+        "sourceDataFormat": "text",
+        "sourceDataPath": "/source_data/account/accounts.csv",
+        "sourceDataSep": ",",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "column_0",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "addr",
+                "rawColumn": "column_1",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "phone_no",
+                "rawColumn": "column_2",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "id",
+                "rawColumn": "column_3",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "int",
+                "renameColumn": "credit_limit",
+                "rawColumn": "column_4",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "date",
+                "renameColumn": "date",
+                "rawColumn": "column_5",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "tag",
+                "rawColumn": "column_6",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "name",
+                "rawColumn": "column_7",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T09:12:39.853+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 28,
+        "sourceDataName": "源数据2",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/account/account_records.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "address",
+                "rawColumn": "address",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "phone_number",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "account",
+                "rawColumn": "account",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "credit_limit",
+                "rawColumn": "credit_limit",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "date",
+                "renameColumn": "registration_time",
+                "rawColumn": "registration_time",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "tag_group",
+                "rawColumn": "tag_group",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name",
+                "rawColumn": "user_name",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T09:10:57.330+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 27,
+        "sourceDataName": "源数据1",
+        "sourceDataFormat": "text",
+        "sourceDataPath": "/source_data/account/account_records.csv",
+        "sourceDataSep": ",",
+        "sourceDataHeader": true,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "address",
+                "rawColumn": "address",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "phone_number",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "account",
+                "rawColumn": "account",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "int",
+                "renameColumn": "credit_limit",
+                "rawColumn": "credit_limit",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "date",
+                "renameColumn": "registration_time",
+                "rawColumn": "registration_time",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "tag_group",
+                "rawColumn": "tag_group",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name",
+                "rawColumn": "user_name",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T09:09:45.790+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 26,
+        "sourceDataName": "parquet",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/account/account_records.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "address",
+                "rawColumn": "address",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "phone_number",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "account",
+                "rawColumn": "account",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "credit_limit",
+                "rawColumn": "credit_limit",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "registration_time",
+                "rawColumn": "registration_time",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "tag_group",
+                "rawColumn": "tag_group",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name",
+                "rawColumn": "user_name",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T09:04:55.560+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 20,
+        "sourceDataName": "test_name111",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "/source_data/account/account_records.parquet",
+        "sourceDataSep": "",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "columnDefault": "user",
+                "renameColumn": "user_id1",
+                "rawColumn": "user_id",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "hubei",
+                "renameColumn": "address2",
+                "rawColumn": "address",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "110",
+                "renameColumn": "phone_number3",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "account4",
+                "rawColumn": "account",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "credit_limit5",
+                "rawColumn": "credit_limit",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "registration_time6",
+                "rawColumn": "registration_time",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "long",
+                "renameColumn": "tag_group7",
+                "rawColumn": "tag_group",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name8",
+                "rawColumn": "user_name",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T07:56:42.380+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 17,
+        "sourceDataName": "withoutHeader",
+        "sourceDataFormat": "text",
+        "sourceDataPath": "/source_data/account/accounts.csv",
+        "sourceDataSep": " ",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "renameColumn": "user_id",
+                "rawColumn": "column_0",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "address",
+                "rawColumn": "column_1",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "phone_number",
+                "rawColumn": "column_2",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_3",
+                "rawColumn": "column_3",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "column_4",
+                "rawColumn": "column_4",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "date",
+                "renameColumn": "created_time",
+                "rawColumn": "column_5",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "int",
+                "renameColumn": "column_6",
+                "rawColumn": "column_6",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "user_name",
+                "rawColumn": "column_7",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T06:24:58.509+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    },
+    {
+        "id": 15,
+        "sourceDataName": "testData",
+        "sourceDataFormat": "parquet",
+        "sourceDataPath": "hdfs://192.168.8.135:9000/source_data/account/account_records.parquet",
+        "sourceDataSep": " ",
+        "sourceDataHeader": false,
+        "columns": [
+            {
+                "columnType": "string",
+                "columnDefault": "123",
+                "renameColumn": "user_id",
+                "rawColumn": "user_id",
+                "example": [
+                    "75eceaa89892098933e9a02ead568613",
+                    "cfde5a86e6d6425bf734e44cd90557d4",
+                    "c0d1be1bc69791cc82ba7e7e99c2351a"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "456",
+                "renameColumn": "address",
+                "rawColumn": "address",
+                "example": [
+                    "澳门特别行政区南宁市清河武汉路o座 256812",
+                    "西藏自治区金凤市清城台北街L座 340442",
+                    "浙江省潜江县门头沟淮安路I座 757242"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "789",
+                "renameColumn": "phone_number",
+                "rawColumn": "phone_number",
+                "example": [
+                    "18814168134",
+                    "13861558500",
+                    "18734638586"
+                ]
+            },
+            {
+                "columnType": "string",
+                "renameColumn": "account",
+                "rawColumn": "account",
+                "example": [
+                    "4402254870566063",
+                    "4720992609245930",
+                    "4851066061956507"
+                ]
+            },
+            {
+                "columnType": "long",
+                "columnDefault": "111",
+                "renameColumn": "credit_limit",
+                "rawColumn": "credit_limit",
+                "example": [
+                    "40000",
+                    "90000",
+                    "90000"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "222",
+                "renameColumn": "registration_time",
+                "rawColumn": "registration_time",
+                "example": [
+                    "2012-11-24",
+                    "2017-03-20",
+                    "2002-01-10"
+                ]
+            },
+            {
+                "columnType": "long",
+                "columnDefault": "444",
+                "renameColumn": "tag_group",
+                "rawColumn": "tag_group",
+                "example": [
+                    "-1",
+                    "-1",
+                    "-1"
+                ]
+            },
+            {
+                "columnType": "string",
+                "columnDefault": "333",
+                "renameColumn": "user_name",
+                "rawColumn": "user_name",
+                "example": [
+                    "陶兰英",
+                    "洪帆",
+                    "罗建国"
+                ]
+            }
+        ],
+        "userId": 1,
+        "createdTime": "2020-11-11T03:16:45.898+00:00",
+        "sourceDataStatus": "ready",
+        "rowNum": null,
+        "columnNum": null
+    }
+]
